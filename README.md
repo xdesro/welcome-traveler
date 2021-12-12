@@ -1,3 +1,4 @@
+![](https://repository-images.githubusercontent.com/437614112/87dd2537-9082-4931-b84d-78bcfa5a7512)
 # ⚔️ Welcome, Traveler
 
 _This is a rather curious and a very respectable eleventy starter project._ It came into existence because I do exactly the same setup for like, 90% of my web projects these days. It has some opinions but hopefully very few, and there's reasoning behind them.
