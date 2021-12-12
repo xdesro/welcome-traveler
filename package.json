@@ -1,0 +1,19 @@
+{
+  "name": "ricky-michiels",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "ELEVENTY_EXPERIMENTAL=true concurrently 'sass --no-source-map --watch ./src/scss:./dist/css' 'npx @11ty/eleventy --serve'",
+    "build": "sass --no-source-map --style compressed ./src/scss:./dist/css && ELEVENTY_EXPERIMENTAL=true npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "Henry Desroches <yo@henry.codes> (https://henry.codes/)",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-plugin-vue": "^0.6.0",
+    "concurrently": "^6.4.0",
+    "sass": "^1.45.0"
+  }
+}
