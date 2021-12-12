@@ -1,8 +1,7 @@
 {
-  "name": "ricky-michiels",
+  "name": "welcome-traveler",
   "version": "1.0.0",
-  "description": "",
-  "main": ".eleventy.js",
+  "description": "This is a rather curious and a very respectable eleventy starter project.",
   "scripts": {
     "start": "ELEVENTY_EXPERIMENTAL=true concurrently 'sass --no-source-map --watch ./src/scss:./dist/css' 'npx @11ty/eleventy --serve'",
     "build": "sass --no-source-map --style compressed ./src/scss:./dist/css && ELEVENTY_EXPERIMENTAL=true npx @11ty/eleventy"
